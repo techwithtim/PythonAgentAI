@@ -1,4 +1,4 @@
-from llama_index import PromptTemplate
+from llama_index.core import PromptTemplate
 
 
 instruction_str = """\
