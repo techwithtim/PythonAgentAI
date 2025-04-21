@@ -24,3 +24,20 @@ new_prompt = PromptTemplate(
 
 context = """Purpose: The primary role of this agent is to assist users by providing accurate 
             information about world population statistics and details about a country. """
+coffee_context = """
+    ## Coffee Shop Data Usage Guide
+    - Data Range: Surrounding the National Gallery of Canada, within a 2 km radius.
+    - Field Descriptions：
+      - price_level: 
+        - $: Budget-friendly options, typically low-cost.
+        - $$: Mid-range pricing.
+        - $1-10: Price range between $1 and $10, for more specific pricing.
+        - $20-30: Price range between $20 and $30, for higher-end options.
+        - [Variable range like $15-20]: Represents a price range with variable amounts, indicating a specific price range.
+      - rating: Google rating 
+      - distance_km: Distance from the gallery in kilometers.
+    - Example Queries:：
+      - 'List coffee shops with rating > 4 within 1km'
+      - 'What is the average price level of shops within 0.5km?'
+      - 'Find the closest 3 coffee shops'
+"""
