@@ -1,18 +1,18 @@
 # PythonAgentAI
 
-PythonAgentAI is a project designed to leverage advanced OpenAI models, including `gpt-4o-mini` with a 128k context window, to perform various AI-driven tasks. This project utilizes the `llama-index` library (version 0.12.22) and its experimental extensions to enhance functionality.
+The **PythonAgentAI** project aims to leverage advanced OpenAI models (including `gpt-4o-mini` with a 128k context window) to perform a variety of AI-powered tasks. This project integrates **Scrapeless** for Google Maps and the **llama-index** library (version 0.12.22) along with its experimental extensions to enable large language models to provide real-time responses.
 
 ## Features
 
-- Integration with OpenAI's `gpt-4o-mini` model, supporting a 128k context window.
-- Modular code structure with components like `main.py`, `pdf.py`, `prompts.py`, and `note_engine.py`.
-- Utilization of `llama-index` and `llama-index-experimental` libraries for advanced indexing and querying.
+- Integration with OpenAI’s `gpt-4o-mini` model, supporting a 128k context window.
+- Modular code structure including components like `main.py`, `pdf`.`py`, `prompts.py`, and `note_engine.py`.
+- Advanced indexing and querying via `llama-index` and `llama-index-experimental` libraries.
 
 ## Installation
 
 ### Prerequisites
 
-- Python 3.11 installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
+- Python 3.11 must be installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
 
 ## Configuration
 
@@ -33,6 +33,10 @@ PythonAgentAI is a project designed to leverage advanced OpenAI models, includin
    ```
 
    Replace `your_openai_api_key_here` with your actual API key from OpenAI.
+
+- **Log into [Scrapeless](https://app.scrapeless.com/passport/login?utm_source=github&utm_medium=readme&utm_campaign=twt) and obtain your API token.**
+
+![Get the Scrapeless API key](https://assets.scrapeless.com/prod/posts/naver-product/77c0cef86a29013173eb41a34f42d3f4.png)
 
 ### Setup Instructions
 
@@ -93,3 +97,13 @@ python main.py
 
 
 Ensure that you have configured any necessary environment variables or settings required by the script. Refer to the `prompts.py` and `note_engine.py` files for customizable parameters and functionalities.
+
+2. **Input the provided prompts to receive results**. After a short wait, you’ll see output similar to the images below:
+
+- **Find the highest rated coffee shop within 0.5km**
+
+![Result of the highest rated coffee shop within 0.5km](https://assets.scrapeless.com/prod/posts/deep-serp-api-online/4ea1b12e422967bccd0db82282cb0270.png)
+ 
+- **Find the closest coffee shop to the target location**
+
+![Result of the closest coffee shop to the location](https://assets.scrapeless.com/prod/posts/deep-serp-api-online/d7e32f4d01913dbd7b76e15983ce46e2.png)
