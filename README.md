@@ -1,6 +1,6 @@
 # PythonAgentAI
 
-The **PythonAgentAI** project aims to leverage advanced OpenAI models (including `gpt-4o-mini` with a 128k context window) to perform a variety of AI-powered tasks. This project integrates **Scrapeless** for Google Maps and the **llama-index** library (version 0.12.22) along with its experimental extensions to enable large language models to provide real-time responses.
+The **PythonAgentAI** project aims to leverage advanced OpenAI models (including `gpt-4o-mini` with a 128k context window) to perform a variety of AI-powered tasks. This project integrates [**Scrapeless**](https://www.scrapeless.com/en?utm_source=github&utm_medium=readme&utm_campaign=twt) for [Google Maps](https://www.scrapeless.com/en/product/deep-serp-api?utm_source=github&utm_medium=readme&utm_campaign=twt) and the **llama-index** library (version 0.12.22) along with its experimental extensions to enable large language models to provide real-time responses.
 
 ## Features
 
